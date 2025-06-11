@@ -29,6 +29,7 @@ IUSE=""
 RDEPEND+="
 	media-libs/vapoursynth[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-tools[${PYTHON_SINGLE_USEDEP}]
+	media-plugins/vs-source[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-kernels[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-exprtools[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-rgtools[${PYTHON_SINGLE_USEDEP}]
