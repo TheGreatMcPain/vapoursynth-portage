@@ -27,6 +27,7 @@ SLOT="0"
 IUSE=""
 
 RDEPEND+="
+	dev-python/numpy[${PYTHON_SINGLE_USEDEP}]
 	media-libs/vapoursynth[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-exprtools[${PYTHON_SINGLE_USEDEP}]
 	media-plugins/vs-pyplugin[${PYTHON_SINGLE_USEDEP}]
